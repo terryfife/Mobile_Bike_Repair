@@ -1,0 +1,155 @@
+html {
+  height: 100%
+}
+
+body {
+  background-image: linear-gradient(#FC5E55, #FA4083);
+  font-family: 'Roboto', sans-serif;
+  color: white;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.container {
+  width: 1024px;
+  min-height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+header {
+  background-color: #FC5E55;
+  min-height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid grey;
+
+}
+
+main {
+
+  min-height: 300px;
+  display: flex;
+  align-items: center;
+}
+
+.cards {
+
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.card1 {
+  background-image: url(images/image-background-card1.jpg);
+  background-size: cover;
+  background-position: bottom;
+  min-height: 250px;
+  width: 30%;
+  border-radius: 12px;
+  box-shadow: 2px 2px 2px black;
+}
+
+.card2 {
+  background-image: url(images/image-background-card2.jpg);
+  min-height: 250px;
+  background-size: cover;
+  background-position: bottom;
+  width: 30%;
+  border-radius: 12px;
+  box-shadow: 2px 2px 2px black;
+}
+
+.card3 {
+  background-image: url(images/image-background-card3.jpg);
+  background-size: cover;
+  background-position: bottom;
+  min-height: 250px;
+  width: 30%;
+  border-radius: 12px;
+  box-shadow: 2px 2px 2px black;
+}
+
+.card1,
+.card2,
+.card3 {
+  padding: 30px 30px 20px 30px;
+  box-sizing: border-box;
+}
+
+
+.herobox1 {
+  width: 50%;
+  flex: 2;
+  padding-right: 60px;
+}
+
+.herobox2 {
+  width: 50%;
+  flex: 1;
+}
+
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 3.25rem;
+  color: white;
+  margin-bottom: 10px;
+  text-shadow: 1px 1px 1px black;
+
+
+}
+
+h2 {
+  font-size: 2rem;
+  font-family: 'Playfair Display';
+  text-align: center;
+  margin-top: 20px;
+
+}
+
+p {
+  line-height: 1.5rem;
+  margin-bottom: 1.5rem;
+
+}
+
+.cards p {
+  font-size: 0.85rem;
+  line-height: 1.2;
+  margin: 10px 30px 20px 30px;
+
+}
+
+.cards i {
+  margin-top: 30px;
+  font-size: 80px;
+}
+
+.cards a {
+  color: white;
+  text-decoration: none;
+}
+
+.mybutton {
+  background-color: white;
+  color: #FA4083;
+  font-family: 'Playfair Display';
+  padding: 11px 25px;
+  border-radius: 6px;
+  box-shadow: 3px 3px 3px black;
+}
+
+.herobox2 img {
+  border-radius: 12px;
+}
+
+nav a.mybutton {
+  margin-left: 20px;
+}
