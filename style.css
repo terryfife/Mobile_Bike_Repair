@@ -1,9 +1,12 @@
 html {
-  height: 100%
+  background-image: linear-gradient(#FC5E55, #FA4083);
 }
 
+
 body {
-  background-image: linear-gradient(#FC5E55, #FA4083);
+  background-image: url(images/image-lion-background.png);
+  background-position: top center;
+  background-repeat: no-repeat;
   font-family: 'Roboto', sans-serif;
   color: white;
 }
@@ -29,7 +32,7 @@ header {
   align-items: center;
   padding-top: 20px;
   padding-bottom: 20px;
-  border-bottom: 1px solid grey;
+  border-bottom: 1px solid lightgrey;
 
 }
 
@@ -146,10 +149,64 @@ p {
   box-shadow: 3px 3px 3px black;
 }
 
+.mybutton:hover {
+  background-color: rgb(94, 7, 94);
+  transition-duration: 1s;
+}
+
 .herobox2 img {
   border-radius: 12px;
 }
 
 nav a.mybutton {
   margin-left: 20px;
+}
+
+.testimonials {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 110px;
+}
+
+.tbox {
+  width: 47%;
+  padding: 50px;
+  border: 1px solid white;
+  box-sizing: border-box;
+  margin-top: 50px;
+  border-radius: 8px;
+}
+
+.tbox :last-child {
+  font-size: .8rem;
+  padding-left: 30px;
+}
+
+
+.main2 {
+  min-height: 300px;
+  padding-top: 50px;
+
+
+}
+
+.inputwrapper {
+  margin-bottom: 20px;
+
+}
+
+input[type=text],
+input[type=email],
+textarea {
+  padding: 12px 20px;
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  box-sizing: border-box;
+
+}
+
+form {
+  margin-bottom: 30px;
 }
